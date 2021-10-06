@@ -1,0 +1,27 @@
+{
+  "name": "estudocypress",
+  "version": "1.0.0",
+  "description": "estudo cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enzogiacomelli"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "e2e"
+  ],
+  "author": "Enzo Giacomelli",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.5.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}
