@@ -1,9 +1,7 @@
 /// <reference types="Cypress" />
 
-describe("login", () => {
-    beforeEach(() => cy.visit("https://www.saucedemo.com/"))
-
-    
+describe("login tests", () => {
+   
     it("login blocked user", () => {
         cy.login("locked_out_user", "secret_sauce")
         const message = "Epic sadface: Sorry, this user has been locked out."
