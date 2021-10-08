@@ -1,10 +1,10 @@
 /// <reference types="Cypress" />
 
 
-Cypress.Commands.add('login', (username, password) =>{
+Cypress.Commands.add('login', user =>{
     cy.visit("https://www.saucedemo.com/")
-    cy.get("#user-name").type(username)
-    cy.get("#password").type(password)
+    cy.get("#user-name").type(user.name)
+    cy.get("#password").type(user.password)
     cy.xpath("//input[@type='submit']").click()
 })
 

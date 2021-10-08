@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-describe('logout test', () =>{
+describe("logout test", () =>{
 
-    it('logout', () =>{
+    it("logout", () =>{
         cy.login("standard_user", "secret_sauce")
         cy.logout()
     })
