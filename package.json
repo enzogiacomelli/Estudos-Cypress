@@ -19,7 +19,8 @@
   "author": "Enzo Giacomelli",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^8.5.0"
+    "cypress": "^8.5.0",
+    "faker": "^5.5.3"
   },
   "devDependencies": {
     "cypress-xpath": "^1.6.2"
